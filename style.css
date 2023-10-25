@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 30px 20px;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5 {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.box-1 {
+    background-color: hsl(263, 55%, 52%);
+}
+
+.head-1,
+.head-2,
+.head-3,
+.head-4,
+.head-5 {
+    display: flex;
+    align-items: center;
+}
+
+.message-1 h2,
+.message-1 p,
+.message-2 h2,
+.message-2 p,
+.message-3 h2,
+.message-3 p,
+.message-4 h2,
+.message-4 p,
+.message-5 h2,
+.message-5 p {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.head-1 img,
+.head-2 img,
+.head-3 img,
+.head-4 img,
+.head-5 img {
+    margin: 20px;
+    border-radius: 50px;
+    border: white 1px solid;
+}
+
+
+.box-2 {
+    background-color: hsl(217, 19%, 35%);
+}
+
+
+.box-3 {
+    background-color: white;
+}
+
+
+
+.box-4 {
+    background-color: white;
+}
+
+.box-5 {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.box-1 h2,
+.box-2 h2,
+.box-5 h2 {
+    color: white;
+}
+
+p {
+    color: hsl(0, 6%, 68%);
+}
+
+.box-5 h4 {
+    color: white;
+}
+
+.box-1 {
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 10%;
+}
+
+h4, h2 {
+    font-weight: 600;
+}
+
+.name {
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 13px;
+}
+
+
+@media (min-width: 990px) {
+
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .right-side {
+        flex-basis: 20%;
+        
+    }
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 78%;
+    }
+
+    .left-side-top {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: space-between;
+    }
+
+    .left-side-bottom {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: space-between;
+    }
+
+    .box-1 {
+        flex-basis: 72%;
+    }
+
+    .box-2 {
+        flex-basis: 25%;
+    }
+
+    .box-4 {
+        flex-basis: 72%;
+    }
+
+    .box-3 {
+        flex-basis: 25%;
+    }
+        
+
+
+
+    
+
+
+
+
+}
